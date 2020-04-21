@@ -8,28 +8,28 @@ header {
   background-repeat: no-repeat;
   height: 100vh; }
 
-.ContainerHeader {
+.containerheader {
   display: flex;
   max-width: 1140px;
   margin: auto;
   padding-top: 250px; }
 
-.FlexHeader1 {
+.flexheader1 {
   width: 560px;
   height: 500px;
   border: 1px solid #f1f1f1;
   margin-right: 15px; }
-  .FlexHeader1 h1 {
+  .flexheader1 h1 {
     font-size: 80px;
     color: #f1f1f1;
     text-align: center;
     font-family: 'Kaushan Script';
     margin-top: 100px; }
-  .FlexHeader1 .btn {
+  .flexheader1 .btn {
     display: flex;
     justify-content: center;
     width: 100%; }
-    .FlexHeader1 .btn .btn1, .FlexHeader1 .btn .btn2 {
+    .flexheader1 .btn .btn1, .flexheader1 .btn .btn2 {
       width: 250px;
       margin: 10px;
       height: 50px;
@@ -39,7 +39,7 @@ header {
       color: #f1f1f1;
       font-size: 18px;
       font-family: 'Lato'; }
-    .FlexHeader1 .btn .btn1 {
+    .flexheader1 .btn .btn1 {
       background-color: #97743a; }
-    .FlexHeader1 .btn .btn2 {
+    .flexheader1 .btn .btn2 {
       background-color: #173e43; }
