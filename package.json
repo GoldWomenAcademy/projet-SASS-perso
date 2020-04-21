@@ -1,7 +1,6 @@
 {
   "name": "projetsass",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "compile:sass": "node-sass sass/main.scss css/style.css -w"
@@ -10,5 +9,15 @@
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.13.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GoldWomenAcademy/projet-SASS-perso.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GoldWomenAcademy/projet-SASS-perso/issues"
+  },
+  "homepage": "https://github.com/GoldWomenAcademy/projet-SASS-perso#readme",
+  "description": ""
 }

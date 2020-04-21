@@ -1,3 +1,14 @@
 body {
-  background-color: rgb(174, 41, 41);
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+}
+
+// Colors Palet
+$couleur-terre: #97743a;
+$bleu-vert: #173e43;
+$semi-blanc: #f1f1f1;
+
+header {
+    background: url("../img/haute-stock-photography.jpg") center;
 }
