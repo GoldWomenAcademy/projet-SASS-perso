@@ -9,6 +9,75 @@ $couleur-terre: #97743a;
 $bleu-vert: #173e43;
 $semi-blanc: #f1f1f1;
 
+// Mixins
+@mixin FlexCenter {
+    display: flex;
+    justify-content: center;
+}
+
+@mixin FlexHeaderBoxes {
+    width: 560px;
+    height: 500px;
+    border: 1px solid $semi-blanc;
+}
+
+@mixin FlexHeadings {
+    font-size: 80px;
+    color: $semi-blanc;
+    text-align: center;
+    font-family: 'Kaushan Script';
+}
+
 header {
-    background: url("../img/haute-stock-photography.jpg") center;
+    background: url("/img/haute-stock.jpg") center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.ContainerHeader {
+    display: flex;
+    max-width: 1140px;
+    margin: auto;
+    padding-top: 250px;
+}
+
+// Two Boxes
+
+// First Boxe
+
+.FlexHeader1 {
+    @include FlexHeaderBoxes();
+    margin-right: 15px;
+
+    h1 {
+        @include FlexHeadings;
+        margin-top: 100px;
+    }
+
+    .btn {
+        @include FlexCenter;
+        width: 100%;
+
+        %btnHome {
+            width: 250px;
+            margin: 10px;
+            height: 50px;
+            border: 1px solid $semi-blanc;
+            border-radius: 5px;
+            cursor: pointer;
+            color: $semi-blanc;
+            font-size: 18px;
+            font-family: 'Lato';
+        }
+
+        .btn1 {
+            @extend %btnHome;
+            background-color: $couleur-terre;
+        }
+
+        .btn2 {
+            @extend %btnHome;
+            background-color: $bleu-vert;
+        }
+    }
 }
